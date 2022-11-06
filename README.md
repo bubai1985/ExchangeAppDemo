@@ -9,14 +9,21 @@ Bubble Sort is being used to sort the currencies in descending order based on th
 
 **Authors :-** Santanu Manna
 
+**SDK :-** Android SDK
+
+**Minimum SDK version :-** 26
+
+**IDE :-** Androi Studio
+
 **Language :-** Kotlin
 
 **Architecture :-** MVVM
 
-**Design patterns :-** Factory design pattern.
+**Design patterns :-** Factory, Observer
 
-**Component use :-** LinkedList, Android Jetpack component. Examples - View binding, ViewModel, LiveData, Coroutine
+**Component use :-** LinkedList, RecyclerView, CardView, ConstraintLayout, ProgressBar, RelativeLayout, LinearLayout, TextView, Android Jetpack component - View binding, ViewModel, LiveData, Coroutine
 
 
 
+![image](https://user-images.githubusercontent.com/5199238/200174929-1d3919f6-e630-4a1b-aeb2-276a9173c09c.png)
 
