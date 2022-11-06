@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExchangeAppDemo</string>
+    <string name="currency_code">Currency Code:</string>
+    <string name="exchange_rate">Exchange Rate:</string>
+</resources>
