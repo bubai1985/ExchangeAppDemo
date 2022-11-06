@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.exchangeappdemo.view.adapter.CurrencyDataAdapter
 import com.example.exchangeappdemo.databinding.ActivityMainBinding
 import com.example.exchangeappdemo.modal.MainActivityViewModel
+import com.example.exchangeappdemo.modal.MainActivityViewModelFactory
 
 /**
  * This is launch Activity class
@@ -17,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var mCurrencyDataAdapter: CurrencyDataAdapter
     private lateinit var mMainActivityViewModel: MainActivityViewModel
+    private lateinit var viewModelFactory: MainActivityViewModelFactory
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +26,8 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        mMainActivityViewModel = ViewModelProvider(this).get(MainActivityViewModel::class.java)
+        viewModelFactory = MainActivityViewModelFactory()
+        mMainActivityViewModel = ViewModelProvider(this, viewModelFactory).get(MainActivityViewModel::class.java)
 
         // Initialize view
         initView()
