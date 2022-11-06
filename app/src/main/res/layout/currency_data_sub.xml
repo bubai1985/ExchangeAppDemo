@@ -30,12 +30,12 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:textStyle="bold"
                 android:id="@+id/userName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/txtMargin"
-                android:textSize="@dimen/textSize" />
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -55,18 +55,17 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:textStyle="bold"
                 android:id="@+id/currency"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/txtMargin"
-                android:textSize="@dimen/textSize" />
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-
-
     </RelativeLayout>
+    
 </androidx.cardview.widget.CardView>
