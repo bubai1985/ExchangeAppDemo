@@ -13,7 +13,7 @@ Bubble Sort is being used to sort the currencies in descending order based on th
 
 **Minimum SDK version :-** 26
 
-**IDE :-** Androi Studio
+**IDE :-** Android Studio
 
 **Language :-** Kotlin
 
